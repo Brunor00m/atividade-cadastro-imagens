@@ -15,3 +15,6 @@ create table imagens(
 
     ALTER TABLE produtos 
 CHANGE preco_produto valor DECIMAL(10,2);
+
+ALTER TABLE produtos
+ADD COLUMN valor DECIMAL(10,2) NOT NULL;
